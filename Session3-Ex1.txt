@@ -1,0 +1,27 @@
+/* Write a program which gets two numbers and displays the maximum one in output. */
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Session3_Ex1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Please enter the first number");
+            int a = int.Parse(Console.ReadLine());
+            Console.WriteLine("Please enter the second number");
+            int b = int.Parse(Console.ReadLine());
+
+            if (a > b) { Console.WriteLine("Max number is: " + a); }
+            else { Console.WriteLine("Max number is: " + b); }
+
+            Console.ReadKey();
+
+        }
+    }
+}
